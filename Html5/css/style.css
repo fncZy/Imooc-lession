@@ -18,3 +18,49 @@ a {
 ul {
 	list-style: none;
 }
+
+/* header */
+header{
+	position: relative;
+	height: 100px;
+	background: #2e2e2e;
+	min-width:820px;
+}
+
+header > .container{
+	width:75%;
+	margin:0 auto;
+	min-width:820px;
+}
+
+header > .container > a{
+	display: block;
+	float: left;
+	line-height: 100px;
+	color:#fff;
+}
+
+header > .container > a > img{
+	vertical-align:middle;
+}
+
+header > .container > nav{
+	float:right;
+	line-height: 103px;
+}
+
+nav > a {
+	width:130px;
+	text-align: center;
+	display:block;
+	float:left;	
+	color:#fff;
+	font-size:24px;
+	margin-right:5px;
+}
+
+nav > a:hover{
+	background: #ed4d4d;
+	color:#2e2e2e;
+	text-shadow: .5px .5px #000;
+}
