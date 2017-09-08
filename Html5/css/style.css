@@ -8,7 +8,7 @@ a{display:block;text-decoration:none;}
 ul{list-style:none;}
 
 /* header */
-header{min-width:820px;height:100px;background:#2e2e2e;}
+header{min-width:900px;height:100px;background:#2e2e2e;}
 header > .container{width:85%;min-width:820px;margin:0 auto;}
 header > .container > a{line-height:100px;float:left;color:#fff;}
 header > .container > a > img{vertical-align:middle;}
@@ -17,8 +17,8 @@ header > .container > nav > a{font-size:24px;float:left;width:130px;margin-right
 header > .container > nav > a:hover{color:#2e2e2e;background:#ed4d4d;text-shadow:.5px .5px #000;}
 
 /* banner */
-#banner{overflow:hidden;min-width:820px;height:670px;text-align:center;color:#fff;background:url(../img/banner.jpg) no-repeat;background-size:cover;text-shadow:1px 1px #2e2e2e;}
-#banner > hgroup{width:1200px;padding:280px 0;}
+#banner{min-width:900px;height:670px;text-align:center;color:#fff;background:url(../img/banner.jpg) no-repeat;background-size:cover;text-shadow:1px 1px #2e2e2e;}
+#banner > hgroup{width:900px;padding:280px 0;}
 #banner > hgroup > h1{font-size:60px;margin:0;margin-bottom:10px;letter-spacing:2px;word-spacing:10px;color:#fff;}
 #banner > hgroup > h2{font-size:20px;margin:0;}
 
@@ -26,16 +26,16 @@ header > .container > nav > a:hover{color:#2e2e2e;background:#ed4d4d;text-shadow
 #portfolio > nav{width:530px;margin:0 auto;}
 #portfolio > nav > a{font-size:20px;float:left;margin-right:20px;padding:7px;text-align:center;color:#f46208;border:1.3px solid #f46208;}
 #portfolio > nav > a:hover{cursor:pointer;background-color:#2e2e2e;}
-#portfolio > .portfolioimg{height:571px;margin-top:150px;background-image:url(../img/portfolio-nav-img.jpg);background-repeat:no-repeat;background-size:100% 571px;}
+#portfolio > .portfolioimg{height:571px;margin-top:150px;background-image:url(../img/portfolio-nav-img.jpg);background-repeat:no-repeat;background-size:100% 571px;min-width: 900px;}
 
 /* stats */
-#stats{overflow:hidden;height:550px;}
+#stats{height:550px;}
 #stats > ul{width:850px;margin:0 auto;}
 #stats > ul > li{float:left;width:200px;}
 #stats > ul > li > .number{font-size:25px;letter-spacing:5px;color:#f46208;}
 
 /* team */
-#team{height:650px;padding-top:10px;background:#2e2e2e;}
+#team{height:650px;padding-top:10px;background:#2e2e2e;min-width: 900px;}
 #team > hgroup > h2{color:#fff;}
 #team > .teamcontainer{width:900px;margin:0 auto;}
 #team > .teamcontainer > dl{float:left;width:300px;text-align:center;color:#fff;}
@@ -54,4 +54,4 @@ header > .container > nav > a:hover{color:#2e2e2e;background:#ed4d4d;text-shadow
 #contactus > form > input:last-of-type:hover{cursor:pointer;}
 
 /* footer */
-footer{font-size:20px;line-height:100px;height:100px;text-align:center;color:#fff;background-color:#000;}
+footer{font-size:20px;line-height:100px;height:100px;text-align:center;color:#fff;background-color:#000;min-width: 900px;}
