@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	width:100%;
+	height:100%;
+}
+.sky{
+	width:100%;
+	height: 60%;
+	background:-webkit-linear-gradient(top,rgb(196,228,253),transparent);
+	background:   -moz-linear-gradient(bottom,rgb(196,228,253),transparent);
+	background:     -o-linear-gradient(bottom,rgb(196,228,253),transparent);
+	background:        linear-gradient(to bottom,rgb(196,228,253),transparent);  
+	position: relative;
+}
+
+.grass{
+	width:100%;
+	height:40%;
+	background:-webkit-linear-gradient(bottom,rgb(148,190,89),transparent);
+	background:-moz-linear-gradient(top,rgb(148,190,89),transparent);
+	background:-o-linear-gradient(top,rgb(148,190,89),transparent);
+	background:linear-gradient(to top,rgb(148,190,89),transparent);
+
+}
+
+
+
+.sky > div >div[class^="cloud"]{
+			width:330px;
+			height:120px;
+			background-color:#fff;
+			border-radius: 80px;
+			position: relative;
+}
+
+.sky>div>div[class^="cloud"]:before{
+			content: "";
+			position: absolute;
+			width:100px;
+			height:175px;
+			background-color: #fff;
+			border-radius: 80px;
+			top:-40px;
+			left:45px;
+			transform: rotate(-30deg);
+}
+.sky>div>div[class^="cloud"]:after{
+			content: "";
+			position: absolute;
+			width:210px;
+			height:230px;
+			background-color: #fff;
+			border-radius: 150px;
+			top:-100px;
+			right:30px;
+}
+
+
+.sky > div[class^="container"]{
+	position: absolute;
+}
+
+.sky > .container1{
+	right:160px;
+	top:70px;
+	transform: scale(.6);
+}
+
+.sky > .container2{
+	top:200px;
+	right:420px;
+	transform: scale(.4);
+}
+
+.sky > .container3{
+	right:660px;
+	top:140px;
+	transform: scale(.8)
+}
+
+.sky > .container4{
+	right:870px;
+	top:240px;
+	transform: scale(.6);
+}
+
+.sky> .container5{
+	right:1000px;
+	top:50px;
+	transform: scale(.6);
+}
